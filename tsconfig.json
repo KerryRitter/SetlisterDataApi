@@ -9,8 +9,11 @@
     "experimentalDecorators": true,
     "target": "es6",
     "sourceMap": true,
-    "allowJs": true
+    "allowJs": true //, "outDir": "dist"
   },
+  "include": [
+      "src/**/*"
+  ],
   "exclude": [
     "node_modules"
   ]

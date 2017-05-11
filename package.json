@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "axios": "^0.16.1",
     "express": "^4.15.2",
     "lyricist": "^2.0.0",
     "nest.js": "^1.0.6",
