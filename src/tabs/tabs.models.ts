@@ -18,6 +18,7 @@ export interface Tab {
 }
 
 export interface TabSearchResult {
+    url: string;
     artist: string;
     name: string;
     rating: number | null;
