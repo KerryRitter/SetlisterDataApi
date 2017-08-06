@@ -3,15 +3,14 @@
     "start": "ts-node ./src/api"
   },
   "dependencies": {
+    "@types/express": "^4.0.35",
+    "@types/node": "^8.0.19",
     "cheerio": "^0.22.0",
     "express": "^4.15.2",
-    "nest.js": "^1.0.6",
+    "nest.js": "1.0.6",
     "request": "^2.81.0",
     "ts-node": "^3.0.4",
     "typescript": "^2.3.2",
     "ultimate-guitar-scraper": "^0.3.3"
-  },
-  "devDependencies": {
-    "@types/express": "^4.0.35"
   }
 }

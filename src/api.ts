@@ -11,4 +11,4 @@ class ApplicationModule {
 
 const app = NestFactory.create(ApplicationModule);
 const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`Application is listening on port ${port}.`));
+app.listen(port as any, () => console.log(`Application is listening on port ${port}.`));
