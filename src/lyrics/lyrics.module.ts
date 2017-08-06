@@ -1,4 +1,4 @@
-import { NestFactory, Module } from "nest.js";
+import { NestFactory, Module, NestModule } from "nest.js";
 import { LyricsController } from "./lyrics.controller";
 import { LyricsService } from "./lyrics.service";
 
@@ -6,5 +6,5 @@ import { LyricsService } from "./lyrics.service";
     components: [LyricsService],
     controllers: [LyricsController]
 })
-export class LyricsModule {
+export class LyricsModule implements NestModule {
 }

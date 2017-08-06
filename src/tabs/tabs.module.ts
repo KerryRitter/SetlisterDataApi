@@ -1,4 +1,4 @@
-import { NestFactory, Module } from "nest.js";
+import { NestFactory, Module, NestModule } from "nest.js";
 import { TabsService } from "./tabs.service";
 import { TabsController } from "./tabs.controller";
 
@@ -6,5 +6,5 @@ import { TabsController } from "./tabs.controller";
     components: [TabsService],
     controllers: [TabsController]
 })
-export class TabsModule {
+export class TabsModule implements NestModule {
 }
