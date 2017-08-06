@@ -3,7 +3,7 @@ import { TabsModule } from "./tabs/tabs.module";
 import { LyricsModule } from "./lyrics/lyrics.module";
 
 @Module({
-    modules: [TabsModule, LyricsModule]
+    modules: [TabsModule, LyricsModule] as any
 })
 class ApplicationModule {
 
