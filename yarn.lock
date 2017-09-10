@@ -1411,9 +1411,9 @@ typescript@^2.3.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.4.2.tgz#f8395f85d459276067c988aa41837a8f82870844"
 
-ultimate-guitar-scraper@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/ultimate-guitar-scraper/-/ultimate-guitar-scraper-0.3.3.tgz#08d49b480f8e8e6f5090ae4d94017241c74e878a"
+ultimate-guitar-scraper@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/ultimate-guitar-scraper/-/ultimate-guitar-scraper-0.3.4.tgz#9448290c2f15157aab5cd5803ee900a5f98580b8"
   dependencies:
     cheerio "^0.22.0"
     jasmine "^2.6.0"
